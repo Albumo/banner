@@ -1,0 +1,29 @@
+mixin banner
+    .banner
+        .banner__wrap
+            .banner__first.card.show
+                img.banner__first-img(src="static/img/content/flash-left.png" alt="")
+                .banner__first-center
+                    img.banner__first-sticpay(class="lazyload" src="static/img/content/sticpay.png" alt="")
+                    img.banner__first-winner(class="lazyload" src="static/img/content/winner.png" alt="")
+                img.banner__first-img.banner__nth-img(src="static/img/content/flash-right.png" alt="")
+
+            .banner__second.card
+                .banner__second-center
+                    .banner__second-text
+                        .banner__second-txt ПОПОЛНЯЙ СЧЁТ ЧЕРЕЗ&nbsp;
+                        .banner__colored STICPAY
+                    .banner__second-card
+                        img(class="lazyload" src="static/img/content/sticpay-card.png" alt="")
+
+            .banner__third.card
+                .banner__third-center
+                    .banner__third-text
+                        span ВЫИГРЫВАЙ&nbsp;
+                        span ЗОЛОТОЙ ЧЕК&nbsp;
+                        span НА&nbsp;
+                        span.banner__colored  5000 EUR
+                    .banner__third-card
+                        img(class="lazyload" src="static/img/content/certifficate.png" alt="")
+
+            button.banner__btn ПОПОЛНИТЬ СЧЁТ
